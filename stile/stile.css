@@ -16,13 +16,20 @@ h1{
 }
 
 ul{
+    
     padding:2rem
 }
 
 li{
     margin-bottom:1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .testo-sbarrato{
     text-decoration: line-through;
+}
+
+span:hover{
+    color:red
 }

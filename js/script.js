@@ -29,6 +29,8 @@ createApp({
        } 
     },
     methods:{
-        
+        removeTodoElement(indexToBeRemoved){
+            this.toDoList.splice(indexToBeRemoved, 1);
+        }
     }
 }).mount('#app')
